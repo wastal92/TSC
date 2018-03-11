@@ -1,3 +1,5 @@
-# TSC
+## Traffic Signs Classifier
 
 Download data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581faac4_traffic-signs-data/traffic-signs-data.zip)
+
+This is a master project. Traffic signs classification systems based on Convolutional Neural Networks (CNNs) have shown vulnerability towards adversarial attacks that inject small-magnitude, unnoticeable perturbations to the signs. This project presents a robust traffic signs classifier that is able to guard against such attacks. Before building our model, we discuss various existing adversarial algorithms and defense methods based on adversarial training. Our model is based on LeNet and is trained on the German Traffic Sign Recognition Benchmark dataset. Based on the adversarial training results in our experiments, we increase the capacity and number of units of the original model to increase robustness. This model is tested on both pure and adversarial sets and shows better results than the original network. Although the new model does not completely eliminate the impact of adversarial attacks, it provides a potential direction for building robust CNNs.
